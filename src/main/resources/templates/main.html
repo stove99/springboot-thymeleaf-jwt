@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+    </head>
+    <body>
+        <p>로그인 후 접속가능한 페이지</p>
+
+        ID : <span th:text="${login.id}">로그인 아이디</span> NAME : <span th:text="${login.name}">로그인 사용자</span>
+
+        <p><a href="/logout">로그아웃</a></p>
+    </body>
+</html>
